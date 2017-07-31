@@ -10,6 +10,7 @@
 [![LiveAtHeroku](https://img.shields.io/badge/live%20at-moviefreak.herokuapp.com-blue.svg)](<http://moviefreak.herokuapp.com>)
 
 # <http://moviefreak.herokuapp.com>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ironlota/movieFreak/tree/heroku)
 
 ## Getting Started
 
