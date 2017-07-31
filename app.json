@@ -1,0 +1,7 @@
+{
+    "name": "movieFreak",
+    "description": "A helping hand for movie enthusiast",
+    "repository": "https://github.com/ironlota/movieFreak",
+    "logo": "https://raw.githubusercontent.com/ironlota/movieFreak/master/client/screenshot/ssLogo.png",
+    "keywords": ["node", "express", "static", "movie", "rest", "api", "react", "redux", "scraping"]
+}
