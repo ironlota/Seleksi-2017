@@ -50,13 +50,17 @@ winston.log('verbose', 'Opening connection to MongoDB...');
 const mongoose = require('mongoose');
 
 mongoose.Promise = bluebird.Promise;
-mongoose.connect(config.get('mongodb')['url'], { useMongoClient: true }).then(
-  () => {
-    winston.verbose('Connect successfully with MongoDB');
-  },
-  (err) => {
-    winston.error(err);
-  }
+const option = {
+  server: { socketOptions: { keepAlive: 300000, connectTimeoutMS: 30000 } },
+  replset: { socketOptions: { keepAlive: 300000, connectTimeoutMS: 30000 } }
+};
+mongoose.connect(config.get('mongodb')['url'], option).then(
+    () => {
+      winston.verbose('Connect successfully with MongoDB');
+    },
+    (err) => {
+      winston.error(err);
+    }
 );
 
 /**
