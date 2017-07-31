@@ -52,7 +52,9 @@ const mongoose = require('mongoose');
 mongoose.Promise = bluebird.Promise;
 const option = {
   server: { socketOptions: { keepAlive: 300000, connectTimeoutMS: 30000 } },
-  replset: { socketOptions: { keepAlive: 300000, connectTimeoutMS: 30000 } }
+  replset: { socketOptions: { keepAlive: 300000, connectTimeoutMS: 30000 } },
+  useMongoClient: true,
+  authMechanism: 'ScramSHA1'
 };
 mongoose.connect(config.get('mongodb')['url'], option).then(
     () => {
