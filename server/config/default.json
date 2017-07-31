@@ -3,7 +3,7 @@
     "secret": "[ Insert secret here ]",
 
     "mongodb": {
-        "url": "mongodb://mongo:27017/movie",
+        "url": "mongodb://moviefreak:yourmoviepartner10@ds127163.mlab.com:27163/movie",
         "mainMoviesCollection": "movie",
         "mainPeopleCollection": "person",
         "tmpMoviesCollection": "newmovie",
@@ -11,8 +11,8 @@
     },
 
     "host": {
-        "baseUrl": "http://localhost:3001",
-        "apiUrl": "http://localhost:3001/api/"
+        "baseUrl": "http://moviefreak.herokuapp.com",
+        "apiUrl": "http://moviefreak.herokuapp.com/api/"
     },
 
     "omdb": {
