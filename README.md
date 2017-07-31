@@ -9,7 +9,7 @@
 [![License: MIT](https://img.shields.io/badge/LICENSE-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![LiveAtHeroku](https://img.shields.io/badge/live%20at-moviefreak.herokuapp.com-blue.svg)](<http://moviefreak.herokuapp.com>)
 
-# see it live : <http://moviefreak.herokuapp.com>
+# <http://moviefreak.herokuapp.com>
 
 ## Getting Started
 
