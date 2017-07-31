@@ -3,7 +3,7 @@
     "secret": "[ Insert secret here ]",
 
     "mongodb": {
-        "url": "mongodb://moviefreak:yourmoviepartner10@ds127163.mlab.com:27163/movi",
+        "url": "mongodb://moviefreak:yourmoviepartner10@ds127163.mlab.com:27163/movie",
         "mainMoviesCollection": "movie",
         "mainPeopleCollection": "person",
         "tmpMoviesCollection": "newmovie",
